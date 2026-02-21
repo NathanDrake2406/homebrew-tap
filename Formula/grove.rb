@@ -7,20 +7,20 @@ class Grove < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/NathanDrake2406/grove/releases/download/v0.1.0/grove-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "5d5519955826d6466df382003b2f04053da6796f5a10d4237e2d05afbad02d08"
+      sha256 "8c484aa761777cd9da2d2164e01d4db1b2f5314c3a6327647817737f7cf75f86"
     else
       url "https://github.com/NathanDrake2406/grove/releases/download/v0.1.0/grove-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "3b9ba21ce2ccf0ad4fd71a96d7164b4ee1c9959c866def91555b3030a2a1ea78"
+      sha256 "2e567e26a780da0179054eb872b6ca4fedb24bd761f92019bdb98c430c28e7d1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/NathanDrake2406/grove/releases/download/v0.1.0/grove-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "7983d014a2425eb7b51481a69a9583320cf6997e1826b1f346df2af4b6520574"
+      sha256 "69df26fdcff8cf7a34d15e9fe869bd301cf1bb1294ae1147c1c27422ab616eed"
     else
       url "https://github.com/NathanDrake2406/grove/releases/download/v0.1.0/grove-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "d92cf72414bbef6c2c01d152fe6c67223787aede05994dd1c3e4678a914ad91d"
+      sha256 "bb5cfad1d0545166fa5db100688aa4a7ff3b446dbf1b5a44c314c3ec40074e1c"
     end
   end
 
