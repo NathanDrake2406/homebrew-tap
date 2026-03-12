@@ -1,26 +1,26 @@
 class Grove < Formula
   desc "Cross-worktree conflict intelligence for git"
   homepage "https://github.com/NathanDrake2406/grove"
-  version "0.4.0"
+  version "0.4.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.0/grove-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "91a26238e1007ab7ab5732a7777e5bf2190ce947faacb7924fc4b18cc4a7f0b4"
+      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.1/grove-v0.4.1-aarch64-apple-darwin.tar.gz"
+      sha256 "09caf0f31a8d2940cf1e5de5c159fd6f84c1ee65e99cfcbec32b7f30a6ba157c"
     else
-      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.0/grove-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "776cbb59e51a61e1fcb598962773457ab0754fea17e7f5bb32d726199e3aa9a1"
+      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.1/grove-v0.4.1-x86_64-apple-darwin.tar.gz"
+      sha256 "7239e7ae9d7893d1a825cca1c57dd042f01770763faa4c45afbd03067cb9b3e9"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.0/grove-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "fee9f48970a7fa76e0355fa50ef9db07dc7e9ca3b9395c1204489513217993b4"
+      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.1/grove-v0.4.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "da78a52a62b8f92233c72285f26e2d6eb8e69ef895e5a1ffc03fd9507fb85ef4"
     else
-      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.0/grove-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "bf123acf78361c266cf68d4adb54018dd9ddeac12a4cb2d752605c9571e917d7"
+      url "https://github.com/NathanDrake2406/grove/releases/download/v0.4.1/grove-v0.4.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a5cced965a6c6bd73951cf9623405c16c5005e35b3657e51f06054fa24437e24"
     end
   end
 
